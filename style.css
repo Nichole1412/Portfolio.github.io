@@ -1,0 +1,50 @@
+html, body {
+ background-color: #4f4f4f;
+}
+
+div{
+  display: flex;
+}
+.sidenav a{
+  text-decoration: none;
+  color: #e4e2e2;
+}
+
+.sidenav{
+  width: 300px;
+  height: 100%;
+  justify-content: left;
+  align-items: center;
+  background-color: #424248;
+  flex-direction: column;
+  position: fixed;
+  gap: 20px;
+  top:0px;
+  font-size: 20px;
+}
+
+.sidenav img{
+  width: 200px;
+  border-radius: 50%;
+}
+
+.ddcontent{
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Protfoliobtn{
+  background-color: transparent;
+  color: #e4e2e2;
+  border:none;
+  font-size: 20px;
+  transition-duration: 1s;
+}
+
+.Protfoliobtn:hover{
+  background-color: transparent;
+  color: #969696;
+  cursor:pointer
+}
