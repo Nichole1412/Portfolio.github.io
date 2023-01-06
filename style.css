@@ -5,6 +5,7 @@ html, body {
 .sidenav a{
   text-decoration: none;
   color: #e4e2e2;
+  font-size: 20px;
 }
 
 .sidenav{
@@ -66,4 +67,10 @@ html, body {
 }
 .gallery img{
   width: 100%;
+}
+.gallery a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
 }
