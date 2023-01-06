@@ -2,16 +2,14 @@ html, body {
  background-color: #4f4f4f;
 }
 
-div{
-  display: flex;
-}
 .sidenav a{
   text-decoration: none;
   color: #e4e2e2;
 }
 
 .sidenav{
-  width: 300px;
+  display: flex;
+  width: 20%;
   height: 100%;
   justify-content: left;
   align-items: center;
@@ -24,15 +22,16 @@ div{
 }
 
 .sidenav img{
-  width: 200px;
+  width: 75%;
   border-radius: 50%;
 }
 
 .ddcontent{
   display: none;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
   gap: 20px;
+
 }
 
 .Protfoliobtn{
@@ -47,4 +46,24 @@ div{
   background-color: transparent;
   color: #969696;
   cursor:pointer
+}
+.main{
+  display: flex;
+  justify-content: flex-end;
+  width: 78%;
+  flex-wrap: wrap;
+  float: right;
+  margin: 10px 30px 10px 5px;
+}
+.gallery{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-style: soild;
+  background-color: white;
+  margin: 10px;
+  width: 30%;
+}
+.gallery img{
+  width: 100%;
 }
