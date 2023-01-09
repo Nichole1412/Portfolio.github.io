@@ -35,7 +35,7 @@ html, body {
 
 }
 
-.Protfoliobtn{
+button{
   background-color: transparent;
   color: #e4e2e2;
   border:none;
@@ -43,9 +43,9 @@ html, body {
   transition-duration: 1s;
 }
 
-.Protfoliobtn:hover{
+button:hover{
   background-color: transparent;
-  color: #969696;
+  color: #6c777f;
   cursor:pointer
 }
 .main{
@@ -73,4 +73,21 @@ html, body {
   flex-direction: column;
   align-items: center;
   text-decoration: none;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  margin-left: 25%;
+}
+.about{
+  display: flex;
+  flex-direction: column;
+  margin-left: 25%;
+}
+
+.Resume{
+  display: flex;
+  flex-direction: column;
+  margin-left: 25%;
 }
