@@ -1,3 +1,4 @@
+
 $(".about").hide();
 $(".contact").hide();
 $(".Resume").hide();
@@ -24,3 +25,4 @@ $(".Resumebtn").click(function(){
   $(".contact").hide();
   $(".Resume").show();
 })
+

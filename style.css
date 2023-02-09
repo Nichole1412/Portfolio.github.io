@@ -87,9 +87,11 @@ a{
   flex-direction: column;
   margin-left: 25%;
   color: white;
+  
 }
 
 .contact a{
+  display: flex;
   color: white;
   text-decoration: none;
   transition-duration: 1s;
@@ -98,17 +100,48 @@ a{
 .contact a:hover{
   color: #a4dcfe;
   text-decoration: none;
-  font-size: 20px;
 }
+
+.contact h2{
+  font-size: 300%;
+}
+
+.contact h4{
+  font-size: 150%;
+}
+
 .about{
   display: flex;
   flex-direction: column;
   margin-left: 25%;
   color: white;
+  
 }
 
+.about h2{
+  font-size: 300%;
+}
+.about h4{
+  font-size: 150%;
+  font-family: 'Crimson Text', serif;
+}
+.about a{
+  text-decoration: none;
+  color: #98c0eb;
+  font-family: 'Crimson Text', serif;
+}
 .Resume{
   display: flex;
   flex-direction: column;
   margin-left: 25%;
+}
+
+.linkedin img{
+
+  width: 100px;
+  padding: 10px;
+}
+.linkedin{
+  display: flex;
+  font-family: 'Crimson Text', serif;
 }
